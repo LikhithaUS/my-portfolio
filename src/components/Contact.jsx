@@ -99,7 +99,7 @@ function Contact() {
                 <div className="mt-14 text-center">
 
                     <a
-                        href="/resume.pdf"
+                        href="/Likhitha_FCV.pdf"
                         target="_blank"
                         rel="noreferrer"
                         className="inline-flex items-center gap-2 rounded-xl bg-white px-7 py-3.5 font-semibold text-slate-900 shadow-lg transition-all duration-300 hover:-translate-y-1 hover:bg-blue-50 hover:shadow-xl"
