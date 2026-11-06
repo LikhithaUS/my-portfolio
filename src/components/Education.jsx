@@ -1,3 +1,30 @@
+const training = [
+    {
+        title: "Full Stack Java Development Training",
+        org: "Certified",
+        duration: "June 2024 – May 2025",
+        description:
+            "Hands-on training in Core Java, JDBC, MySQL, HTML, CSS, and JavaScript. Earned the Full Stack Java Development Certification.",
+        tags: ["Core Java", "JDBC", "MySQL", "HTML", "CSS", "JavaScript"],
+    },
+    {
+        title: "Web Development Intern (Python)",
+        org: "Take It Smart (OPC) Pvt. Ltd., Bangalore",
+        duration: "Aug 2023 – Sep 2023",
+        description:
+            "Built responsive web applications using HTML, CSS, JavaScript, and Python, and took part in testing, debugging, and feature enhancements.",
+        tags: ["Python", "HTML", "CSS", "JavaScript"],
+    },
+    {
+        title: "Full Stack Web Developer Intern",
+        org: "Varcons Technologies Pvt. Ltd., Bangalore",
+        duration: "Oct 2022 – Nov 2022",
+        description:
+            "Internship in full-stack web development.",
+        tags: [],
+    },
+];
+
 function Education() {
     return (
         <section
@@ -113,6 +140,51 @@ function Education() {
 
                     </div>
 
+                </div>
+
+                {/* Training, Internships & Certification */}
+                <div className="mt-16 max-w-5xl">
+                    <h3 className="text-2xl font-bold text-gray-900 md:text-3xl">
+                        Training, Internships & Certification
+                    </h3>
+
+                    <div className="mt-8 grid gap-6 md:grid-cols-3">
+                        {training.map((item) => (
+                            <div
+                                key={item.title}
+                                className="rounded-2xl border border-gray-200 bg-white p-6 shadow-sm transition duration-300 hover:-translate-y-1 hover:border-blue-300 hover:shadow-lg"
+                            >
+                                <span className="inline-flex rounded-full bg-blue-100 px-3 py-1 text-xs font-semibold text-blue-700">
+                                    {item.duration}
+                                </span>
+
+                                <h4 className="mt-4 text-lg font-bold text-gray-900">
+                                    {item.title}
+                                </h4>
+
+                                <p className="mt-1 text-sm font-medium text-blue-600">
+                                    {item.org}
+                                </p>
+
+                                <p className="mt-3 text-sm leading-6 text-gray-600">
+                                    {item.description}
+                                </p>
+
+                                {item.tags.length > 0 && (
+                                    <div className="mt-4 flex flex-wrap gap-2">
+                                        {item.tags.map((tag) => (
+                                            <span
+                                                key={tag}
+                                                className="rounded-md bg-gray-100 px-2.5 py-1 text-xs font-medium text-gray-700"
+                                            >
+                                                {tag}
+                                            </span>
+                                        ))}
+                                    </div>
+                                )}
+                            </div>
+                        ))}
+                    </div>
                 </div>
 
             </div>

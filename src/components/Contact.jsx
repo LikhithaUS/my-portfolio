@@ -37,7 +37,7 @@ function Contact() {
 
                     {/* Email */}
                     <a
-                        href="mailto:your-email@example.com"
+                        href="mailto:likhithaus2506@gmail.com"
                         className="group rounded-3xl border border-white/10 bg-white/5 p-7 text-center backdrop-blur-md transition-all duration-500 hover:-translate-y-2 hover:bg-white/10 hover:shadow-2xl"
                     >
                         <div className="mx-auto flex h-14 w-14 items-center justify-center rounded-2xl bg-blue-500/20 text-2xl transition-transform duration-500 group-hover:scale-110 group-hover:rotate-6">

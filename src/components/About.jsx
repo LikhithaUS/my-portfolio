@@ -45,46 +45,50 @@ function About() {
                                 </h3>
 
                                 <p className="text-sm text-blue-600">
-                                    Flutter & React Developer
+                                    Java · Python · Mobile Developer
                                 </p>
                             </div>
                         </div>
 
                         <p className="text-lg leading-8 text-gray-600">
-                            I’m a Software Developer focused on building modern web
-                            and cross-platform applications using React.js and Flutter.
+                            I’m a Software Developer with 1+ year of professional
+                            experience building cross-platform mobile apps with
+                            Flutter and Dart. I work on offline-first features,
+                            REST API integration, debugging, and testing across
+                            Android devices.
                         </p>
 
                         <p className="mt-5 text-lg leading-8 text-gray-600">
-                            I have experience working with JavaScript, Dart, REST APIs,
-                            databases, and full-stack technologies. I enjoy turning
-                            ideas into practical applications with responsive user
-                            interfaces and well-structured application workflows.
+                            I have a solid Core Java foundation from Full Stack Java
+                            Development training, covering object-oriented
+                            programming, JDBC, and MySQL. On the Python side, I build
+                            web applications with Flask, and I built a deep
+                            learning-based Brain Stroke Risk Prediction system.
                         </p>
 
                         <p className="mt-5 text-lg leading-8 text-gray-600">
-                            Currently, I’m strengthening my skills in React and Flutter
-                            while building real-world projects that combine frontend,
-                            mobile, and backend development.
+                            I also build full-stack apps with React.js, Node.js,
+                            Express.js, and MongoDB, such as my Employee Management
+                            System. I enjoy turning ideas into reliable, well-structured
+                            applications.
                         </p>
 
                         {/* Small technology tags */}
                         <div className="mt-7 flex flex-wrap gap-3">
-                            <span className="rounded-full bg-blue-100 px-4 py-2 text-sm font-medium text-blue-700 transition hover:scale-105">
-                                Flutter
-                            </span>
-
-                            <span className="rounded-full bg-indigo-100 px-4 py-2 text-sm font-medium text-indigo-700 transition hover:scale-105">
-                                React.js
-                            </span>
-
-                            <span className="rounded-full bg-purple-100 px-4 py-2 text-sm font-medium text-purple-700 transition hover:scale-105">
-                                JavaScript
-                            </span>
-
-                            <span className="rounded-full bg-slate-100 px-4 py-2 text-sm font-medium text-slate-700 transition hover:scale-105">
-                                REST APIs
-                            </span>
+                            {[
+                                ["Java", "bg-orange-100 text-orange-700"],
+                                ["Python", "bg-yellow-100 text-yellow-800"],
+                                ["Flask", "bg-slate-100 text-slate-700"],
+                                ["Flutter", "bg-blue-100 text-blue-700"],
+                                ["REST APIs", "bg-indigo-100 text-indigo-700"],
+                            ].map(([tag, color]) => (
+                                <span
+                                    key={tag}
+                                    className={`rounded-full px-4 py-2 text-sm font-medium transition hover:scale-105 ${color}`}
+                                >
+                                    {tag}
+                                </span>
+                            ))}
                         </div>
                     </div>
 
@@ -121,7 +125,7 @@ function About() {
                                     </p>
 
                                     <p className="mt-1 font-semibold">
-                                        Flutter & React
+                                        Java · Python · Mobile
                                     </p>
                                 </div>
 
@@ -135,13 +139,23 @@ function About() {
                                     </p>
                                 </div>
 
-                                <div>
+                                <div className="border-b border-white/20 pb-4">
                                     <p className="text-sm text-blue-200">
                                         Education
                                     </p>
 
                                     <p className="mt-1 font-semibold">
                                         B.E. Computer Science
+                                    </p>
+                                </div>
+
+                                <div>
+                                    <p className="text-sm text-blue-200">
+                                        Notice Period
+                                    </p>
+
+                                    <p className="mt-1 font-semibold">
+                                        1 Month
                                     </p>
                                 </div>
 

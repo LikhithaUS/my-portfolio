@@ -15,7 +15,7 @@ function App() {
       <Navbar />
 
       <main>
-        <section className="relative isolate overflow-hidden bg-slate-950 text-white">
+        <section id="home" className="relative isolate overflow-hidden bg-slate-950 text-white">
 
           {/* Background glow */}
           <div className="absolute -left-40 -top-40 h-96 w-96 rounded-full bg-blue-600/30 blur-3xl" />
@@ -49,15 +49,15 @@ function App() {
               </h2>
 
               <p className="gradient-text mt-3 text-xl font-semibold sm:text-2xl">
-                Flutter & React Developer
+                Java · Python · Mobile (Flutter) Developer
               </p>
 
               <p className="mt-7 max-w-2xl text-lg leading-8 text-gray-400">
-                I have 1+ year of professional experience developing
-                cross-platform applications using Flutter, with a strong
-                focus on Android application development. I also work with
-                React.js, JavaScript, and full-stack technologies to build
-                modern, responsive, and user-friendly applications.
+                I have 1+ year of professional experience building
+                cross-platform mobile apps with Flutter and Dart for Android.
+                I have a Core Java background from Full Stack Java training
+                (OOP, JDBC, MySQL) and build Python web apps with Flask, along
+                with REST APIs, databases, and full-stack JavaScript.
               </p>
 
               {/* Buttons */}
@@ -86,27 +86,14 @@ function App() {
 
               {/* Technologies */}
               <div className="mt-10 flex flex-wrap gap-3 text-sm text-gray-400">
-
-                <span className="rounded-full border border-white/10 bg-white/5 px-4 py-2">
-                  Flutter
-                </span>
-
-                <span className="rounded-full border border-white/10 bg-white/5 px-4 py-2">
-                  React.js
-                </span>
-
-                <span className="rounded-full border border-white/10 bg-white/5 px-4 py-2">
-                  JavaScript
-                </span>
-
-                <span className="rounded-full border border-white/10 bg-white/5 px-4 py-2">
-                  Node.js
-                </span>
-
-                <span className="rounded-full border border-white/10 bg-white/5 px-4 py-2">
-                  MongoDB
-                </span>
-
+                {["Java", "Python", "Flask", "Flutter", "Dart", "React.js", "MySQL"].map((tech) => (
+                  <span
+                    key={tech}
+                    className="rounded-full border border-white/10 bg-white/5 px-4 py-2"
+                  >
+                    {tech}
+                  </span>
+                ))}
               </div>
 
             </div>
@@ -137,7 +124,7 @@ function App() {
                   </p>
 
                   <p className="font-semibold text-white">
-                    Flutter + React
+                    Java · Python · Flutter
                   </p>
                 </div>
 
