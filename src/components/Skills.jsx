@@ -13,20 +13,19 @@ const roles = [
         accent: "from-yellow-500 to-amber-600",
         summary:
             "Python web development with Flask, plus a deep learning prediction project.",
-        stack: ["Python", "Flask", "REST APIs", "Deep Learning"],
+        stack: ["Python", "Flask"],
     },
     {
         title: "Mobile Developer",
         icon: "M",
         accent: "from-blue-500 to-indigo-600",
         summary:
-            "1+ year professionally building Flutter apps for Android.",
+            "1.6 year professionally building Flutter apps for Android.",
         stack: [
             "Flutter",
             "Dart",
             "Android",
             "Riverpod",
-            "Dio",
             "Offline-First",
             "SQLite",
         ],
@@ -40,7 +39,7 @@ const categories = [
     },
     {
         name: "Backend & APIs",
-        items: ["Flask", "Node.js", "Express.js", "REST APIs", "JSON", "JWT", "Axios"],
+        items: ["Flask", "Node.js", "JSON"],
     },
     {
         name: "Frontend",
@@ -52,7 +51,7 @@ const categories = [
     },
     {
         name: "Tools",
-        items: ["Git", "GitHub", "Android Studio", "VS Code", "Postman", "Jira"],
+        items: ["GitHub", "Android Studio", "VS Code", "Postman", "Jira", "Clickup",],
     },
     {
         name: "Testing & Practices",
@@ -60,8 +59,25 @@ const categories = [
             "Functional Testing",
             "Manual Testing",
             "Debugging",
-            "Performance Optimization",
             "Agile / Scrum",
+        ],
+    },
+    {
+        name: "AI-Assisted Development",
+        items: [
+            "Building Features with AI Tools",
+            "AI-Assisted Debugging",
+            "Code Review & Refactoring",
+            "Prompting for Code Generation",
+        ],
+    },
+    {
+        name: "Technical Troubleshooting",
+        items: [
+            "Windows Issue Resolution",
+            "Android Device Issues",
+            "App Installation & Setup",
+            "User Support",
         ],
     },
 ];

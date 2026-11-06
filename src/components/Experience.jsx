@@ -11,6 +11,8 @@ const jobs = [
             "Implement offline-first features with local data handling and content management.",
             "Debug production issues, resolve crashes, and improve application stability.",
             "Perform functional testing and verify app behaviour across Android devices.",
+            "Provide technical troubleshooting for the e-learning application, diagnosing and resolving Windows and Android issues for users.",
+            "Use AI-assisted development tools to build application features, debug issues, and improve code quality.",
             "Work with MySQL, PostgreSQL, BunnyCDN, and Docker, and track tasks in Jira and ClickUp.",
             "Collaborate with backend developers and cross-functional teams using Git and GitHub.",
         ],
@@ -26,6 +28,9 @@ const jobs = [
             "Jira",
             "ClickUp",
             "Postman",
+            "Windows",
+            "Android",
+            "AI-Assisted Development",
         ],
     },
     {
