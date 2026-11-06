@@ -74,7 +74,7 @@ function App() {
                 </a>
 
                 <a
-                  href="/resume.pdf"
+                  href="/Likhitha_FCV.pdf"
                   target="_blank"
                   rel="noreferrer"
                   className="rounded-xl border border-white/20 bg-white/10 px-7 py-3.5 font-semibold text-white backdrop-blur-md transition duration-300 hover:-translate-y-1 hover:bg-white/20"
